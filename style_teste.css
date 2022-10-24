@@ -10,6 +10,8 @@ section {
     background-color: royalblue;
     color: black;
     text-align: justify;
+    margin-left: 100px;
+    margin-right: 50pt;
 }
 
 p {
