@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: chocolate;
+    color: cadetblue;
+}
+
+section {
+    background-color: royalblue;
+    color: black;
+    text-align: justify;
+}
+
+p {
+    color: rebeccapurple;
+}

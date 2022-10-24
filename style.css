@@ -1,17 +1,50 @@
-h1{
-    background-color: bisque;
-    color: black;
-    text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: chocolate;
+    color: cadetblue;
 }
 
+figure, figcaption{
+    text-align: center;
+    background-color: chocolate;
+    color: cadetblue;
+    font-size: 25px;
+}
 
-header> h1{
-    background-color: red;
-    color: antiquewhite;
+h1{
+    text-align: center;
+    background-color: chocolate;
+    color: cadetblue;
+    font-size: 50pt;
+}
 
+h2{
+    text-align: center;
+    background-color: yellowgreen;
+    color: cadetblue;
+    font-size: 35pt;
+}
+
+p { 
+    text-align: justify;
+    text-align: center;
+    background-color: chocolate;
+    color: cadetblue;
+    font-size: 15pt;
 }
 
 nav{
     text-align: center;
-    
+    background-color: chocolate;
+    color: cadetblue;
+    font-size: 30pt;
+}
+
+div{
+    text-align: center;
+    background-color: chocolate;
+    color: cadetblue;
+    font-size: 15px;
 }
