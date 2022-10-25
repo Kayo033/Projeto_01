@@ -1,50 +1,56 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: chocolate;
-    color: cadetblue;
+    color:darkblue;
 }
 
 figure, figcaption{
+    font-family:Verdana;
     text-align: center;
     background-color: chocolate;
-    color: cadetblue;
+    color:darkblue;
     font-size: 25px;
 }
 
 h1{
+    height: 150px;
     text-align: center;
-    background-color: chocolate;
-    color: cadetblue;
-    font-size: 50pt;
+    font-family:Verdana;
+    color:darkblue;
+    font-size: 80pt;
 }
 
 h2{
+    font-family:Verdana;
     text-align: center;
-    background-color: yellowgreen;
-    color: cadetblue;
+    background-color: black;
+    color:darkblue;
     font-size: 35pt;
 }
 
 p { 
+    font-family:Verdana;
+    text-align:center;
     text-align: justify;
-    text-align: center;
     background-color: chocolate;
-    color: cadetblue;
+    color:darkblue;
     font-size: 15pt;
 }
 
 nav{
+    font-family:Verdana;
     text-align: center;
     background-color: chocolate;
-    color: cadetblue;
+    color:darkblue;
     font-size: 30pt;
 }
 
 div{
+    font-family:Verdana;
     text-align: center;
     background-color: chocolate;
-    color: cadetblue;
+    color:darkblue;
     font-size: 15px;
 }
