@@ -9,24 +9,19 @@
 figure, figcaption{
     font-family:Verdana;
     text-align: center;
-    background-color: chocolate;
-    color:darkblue;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h1{
     height: 150px;
     text-align: center;
     font-family:Verdana;
-    color:darkblue;
     font-size: 80pt;
 }
 
 h2{
     font-family:Verdana;
     text-align: center;
-    background-color: black;
-    color:darkblue;
     font-size: 35pt;
 }
 
@@ -34,23 +29,17 @@ p {
     font-family:Verdana;
     text-align:center;
     text-align: justify;
-    background-color: chocolate;
-    color:darkblue;
     font-size: 15pt;
 }
 
 nav{
     font-family:Verdana;
     text-align: center;
-    background-color: chocolate;
-    color:darkblue;
     font-size: 30pt;
 }
 
 div{
     font-family:Verdana;
     text-align: center;
-    background-color: chocolate;
-    color:darkblue;
     font-size: 15px;
 }
