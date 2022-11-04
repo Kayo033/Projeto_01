@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="content-type" content="JavaScript, HTML, CSS">
-    <!-- Especifica o tipo de linguagem envolvida na página -->
+    <!-- Descreve ao navegador o tipo de linguagem envolvida na página -->
     <meta name="description" content="Resumo/Sinopse sobre a serie Chuck">
     <!-- Descrever/comentario ao navegador sobre o assunto da pagina -->
     <meta name="keywords" content="Serie, Chuck, Serie Chuck">
@@ -14,28 +14,29 @@
     <meta name="author" content="Kayo Araujo Oliveira">
     <!-- Autor da pagina seja Pessoa, Empresa e etc -->
     <title>Minha primeira página Web !</title>
+    <link rel="shortcut icon" href="chuck.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<!-- Colocar uma FAVICON no site 
-     Colocar Site Responsivo
--->
+<!-- Colocar Site Responsivo -->
 
 <body>
 
-    <header> <!-- Tag <HEADER>, tag de Cabeçalho -->
+    <header>
+        <!-- Tag <HEADER>, tag de Cabeçalho -->
         <h1>Serie Chuck</h1>
         <nav>
             <a
-            href="https://www.google.com/search?q=chuck+2007&source=lmns&bih=667&biw=1366&hl=pt-BR&sa=X&ved=2ahUKEwiTk8j5i_f6AhXBA98KHRMiDHUQ_AUoAHoECAEQAA#wgvs=e&wptab=si:AC1wQDCpRQsiDyhVid17G9CipBWkZrPDd6pMq28mw3pWWkrrwBBsyConMjaBXfKva8gCP8CmakPRIuKWaZl_B0mjGhwJvaH_yqUNbuUaeuVHrW4ptVslzlAU-s8VN6Yg2z1DPwP0GiH8">Elenco</a>
+                href="https://www.google.com/search?q=chuck+2007&source=lmns&bih=667&biw=1366&hl=pt-BR&sa=X&ved=2ahUKEwiTk8j5i_f6AhXBA98KHRMiDHUQ_AUoAHoECAEQAA#wgvs=e&wptab=si:AC1wQDCpRQsiDyhVid17G9CipBWkZrPDd6pMq28mw3pWWkrrwBBsyConMjaBXfKva8gCP8CmakPRIuKWaZl_B0mjGhwJvaH_yqUNbuUaeuVHrW4ptVslzlAU-s8VN6Yg2z1DPwP0GiH8">Elenco</a>
 
             <a
-            href="https://www.primevideo.com/dp/amzn1.dv.gti.ea458891-8d9a-4013-8497-87057a12a4d5?autoplay=0&ref_=atv_cf_strg_wb">Onde
-            Assistir</a>
+                href="https://www.primevideo.com/dp/amzn1.dv.gti.ea458891-8d9a-4013-8497-87057a12a4d5?autoplay=0&ref_=atv_cf_strg_wb">Onde
+                Assistir</a>
         </nav>
     </header>
 
-    <main> <!-- Tag <MAIN>, tag de SEÇÃO/CONTEÚDO PRINCIPAL da página -->
+    <main>
+        <!-- Tag <MAIN>, tag de SEÇÃO/CONTEÚDO PRINCIPAL da página -->
         <h2>Sinopse</h2>
         <p>Chuck Bartowski (Zachary Levi) é um nerd "gênio da informática" que tem um emprego monótono na fictícia rede
             Buy More (Compre Mais). Sua rotina vira de ponta à cabeça quando um amigo, que trabalha na CIA, envia para
@@ -48,23 +49,27 @@
     </main>
 
     <figure>
-        <img src="https://poltronanerd.com.br/wp-content/uploads/2020/07/CHuck-serie-1024x682.jpg" alt="Chuck e Sarah"> <!-- TAG <IMG> colocar imagem -->
+        <img src="https://poltronanerd.com.br/wp-content/uploads/2020/07/CHuck-serie-1024x682.jpg" alt="Chuck e Sarah">
+        <!-- TAG <IMG> colocar imagem -->
 
-        <figcaption><u>Chuck e Sarah</u></figcaption> <!--TAG <FigCaption>, serve para explicar a foto colocada-->
+        <figcaption><u>Chuck e Sarah</u></figcaption>
+        <!--TAG <FigCaption>, serve para explicar a foto colocada-->
     </figure>
 
-    <section>
-        <button onclick="myFunction()">Minha Opinião</button> <!-- A parte da Tag <SECTION> serve para criar um botão clicavel -->
-        <p id="click"></p>
+    <section> <!-- Tag de Seção do documento -->
+        <button onclick="myFunction()">Opinião Pessoal...</button> <!-- Botão clicavel para ser exibido -->
+        <p id="onclick"></p>
         <script>
             function myFunction() {
-            document.getElementById("click").innerHTML = "Para quem deseja assistir uma serie em familia, Chuck é uma otima opção. Independente de ser uma serie antiga (2007), continua sendo uma otima opção pois envolve um pouco de tudo desde drama, suspense, ação e aventura. "
-        }
+                document.getElementById("onclick").innerHTML = "Para quem deseja assistir uma serie em familia, Chuck é uma otima opção. Independente de ser uma serie antiga (2007), continua sendo uma otima opção pois envolve um pouco de tudo desde drama, suspense, ação e aventura."
+            }
         </script>
     </section>
 
-    <footer> <!-- Tag <FOOTER>, tag de RODAPÉ -->
-        Desenvolvido por<b>Kayo Araujo Oliveira</b>aluno de Análise e Desenvolvimento de Sistemas na instituição de Ensino<b>UniNove.</b><br>
+    <footer>
+        <!-- Tag <FOOTER>, tag de RODAPÉ -->
+        Desenvolvido por<b>Kayo Araujo Oliveira</b>aluno de Análise e Desenvolvimento de Sistemas na instituição de
+        Ensino<b>UniNove.</b><br>
         <!--TAG <B> serve para GRIFAR uma texto-->
         <b>R.A : 3022200176</b>
     </footer>
