@@ -47,14 +47,19 @@ figure{
 }
 
 section{
-    padding: 7px;
-    border: none;
-    border-radius: 4px;
+    padding: 2px;
+    border: none; 
+    border-radius: 2px;
     cursor: pointer;
     text-align: justify;
     text-align: center;
     font-size: 15pt;
     background-color: rgb(255,69,0);
+}
+
+button{
+    font-size: medium;
+    margin: 30px;
 }
 
 footer{
