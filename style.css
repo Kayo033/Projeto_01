@@ -67,3 +67,17 @@ footer{
     font-family: cursive;
     font-size: 25pt;
 }
+
+/*Tamanho para tablet*/
+@media screen and (max-widht: 768px) {
+    nav {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/*Tamanho para celular */
+@media screen and (max-widht: 600px) {
+    
+}
