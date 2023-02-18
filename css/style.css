@@ -2,7 +2,7 @@
     margin: 10px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: chocolate;
+    background-color: rgb(139, 58, 0);
     color: rgb(245,245,245);
 }
 
@@ -10,7 +10,7 @@ h1{
     margin: 10px;
     padding: 0px;
     box-sizing: border-box;
-    background-color:rgb(255,69,0);
+    background-color:rgb(177, 57, 13);
     color:rgb(245,245,245);
     font-size: 50pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -21,7 +21,7 @@ a{
     margin: 10px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: rgb(255,69,0);
+    background-color: rgb(177, 57, 13);
     color: rgb(245,245,245);
     text-align: left;
 }
@@ -54,7 +54,7 @@ section{
     text-align: justify;
     text-align: center;
     font-size: 15pt;
-    background-color: rgb(255,69,0);
+    background-color: rgb(177, 57, 13);
 }
 
 button{
@@ -65,7 +65,7 @@ button{
 footer{
     text-align: right;
     font-family: cursive;
-    font-size: 25pt;
+    font-size: 10pt;
 }
 
 /*Tamanho para tablet*/
