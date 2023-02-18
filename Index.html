@@ -15,7 +15,8 @@
     <!-- Autor da pagina seja Pessoa, Empresa e etc -->
     <title>Minha primeira página Web !</title>
     <link rel="shortcut icon" href="chuck.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -24,8 +25,7 @@
         <!-- Tag <HEADER>, tag de Cabeçalho -->
         <h1>Serie Chuck</h1>
         <nav>
-            <a
-                href="https://www.imdb.com/title/tt0934814/fullcredits/?ref_=tt_ql_cl">Elenco</a>
+            <a href="https://www.imdb.com/title/tt0934814/fullcredits/?ref_=tt_ql_cl">Elenco</a>
 
             <a
                 href="https://www.primevideo.com/dp/amzn1.dv.gti.ea458891-8d9a-4013-8497-87057a12a4d5?autoplay=0&ref_=atv_cf_strg_wb">Onde
@@ -47,7 +47,7 @@
     </main>
 
     <figure>
-        <img src="Chuck_2007_logo_2.svg.png" alt="Logo Chuck">
+        <img src="img/Chuck_2007_logo_2.svg.png" alt="Logo Chuck">
         <!-- TAG <IMG> colocar imagem -->
 
         <figcaption>Logo Serie Chuck (2007).</figcaption>
@@ -57,11 +57,6 @@
     <section> <!-- Tag de Seção do documento -->
         <button onclick="myFunction()">Opinião Pessoal...</button> <!-- Botão clicavel para ser exibido -->
         <p id="onclick"></p>
-        <script>
-            function myFunction() {
-                document.getElementById("onclick").innerHTML = "Para quem deseja assistir uma serie em familia, Chuck é uma otima opção. Independente de ser uma serie antiga (2007), continua sendo uma otima opção pois envolve um pouco de tudo desde drama, suspense, ação e aventura."
-            }
-        </script>
     </section>
 
     <footer>
