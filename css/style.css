@@ -1,16 +1,15 @@
 * {
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: #c5472a;
     box-sizing: border-box;
-    background-color: rgb(192, 80, 0);
-    color: rgb(245, 245, 245);
 }
 
 img {
-    width: 950px;
-    height: 500px;
-    text-align: right;
+    width: 750px; /*W e "LARGO" então ele é largura*/
+    height: 450px; /*H e "ALTO" então ele é altura*/
 }
-
-/*Tamanho para celular */
-@media screen and (max-widht: 600px) {}
