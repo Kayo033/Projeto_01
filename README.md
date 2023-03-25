@@ -1,2 +1,7 @@
 <h1>Projeto_01</h1>
-Projeto aulas, colocando o conhecimento adquirido nas aulas em prática.
+
+<h2>Desenvolvimento</h2>
+
+<p>Tive a ideia desse projeto no meu 1º Semestre, com a criação de um site para colocar o conhecimento em prática. Neste projeto vou desenvolver um site simples onde falarei de uma das minhas series preferidas, Chuck (2008).</p>
+
+<p>Para desenvolver o projeto usarei as tecnologias HTML, CSS e JavaScript !</p>
