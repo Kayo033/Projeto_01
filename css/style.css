@@ -1,15 +1,5 @@
 * {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    height: 100vh;
-    background-color: #c5472a;
-    box-sizing: border-box;
-}
-
-img {
-    width: 750px; /*W e "LARGO" então ele é largura*/
-    height: 450px; /*H e "ALTO" então ele é altura*/
+    margin: 0;
+    padding: 0;
+    background-color: green;
 }
