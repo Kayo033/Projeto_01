@@ -11,6 +11,10 @@
     font-size: 25px;
 }
 
+.teste_hover:hover {
+    color: #dc4e28;
+}
+
 /*.teste é TESTE EMBAIXO*/
 /* .teste {
     border-style: solid;    Cria uma borda sólida 
