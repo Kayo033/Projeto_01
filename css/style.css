@@ -15,7 +15,16 @@
     color: #dc4e28;
 }
 
-/*.teste é TESTE EMBAIXO*/
+#onde_assistir {
+    width: 300px;
+    height: 300px;
+}
+
+/* 
+    COLOCAR UM HOVER NOS BOTÕES DO NAV. QUANDO IR COM O MOUSE MUDAR O BACKGROUND-COLOR OU COLOR 
+ */
+
+/* .teste é TESTE EMBAIXO */
 /* .teste {
     border-style: solid;    Cria uma borda sólida 
     border-color:red;   /* Colore a borda com a cor vermelha 
