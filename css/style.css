@@ -97,31 +97,35 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .conteudo_onde_assistir{
     background-color: gray;
     height: 100vh;
 }
 
+.onde_assistir_h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 2.5px 0px 45px 0px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .conteudo_fotos{
     background-color: gray;
     height: 100vh;
 }
-
-
 
 .rodape {
     margin: 25px;
