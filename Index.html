@@ -19,48 +19,54 @@
 
 <body>
 
-    <header>
-        <h1 class="teste_hover">Chuck</h1>
-        <nav> <!--Tag NAV e tag de navegação-->
-        <hr size="10">
-            <a class="header_nav" href="page2.html">Elenco</a>
-            <a class="header_nav" href="#video">Trailer</a>
-            <a class="header_nav" href="#onde_assistir">Onde Assistir</a>
-            <a class="header_nav" href="#fotos">Fotos</a>
-            <a class="header_nav" href="#contato">Contato</a>
-        </nav>
+    <h1 class="titulo">CHUCK</h1> <!--ARRUMAR H1-->
+
+    <header class="cabecalho">
+        <nav class="cabecalho_nav"> 
+            <a class="cabecalho_nav_links" href="page2.html">Elenco</a>
+            <a class="cabecalho_nav_links" href="#video">Trailer</a>
+            <a class="cabecalho_nav_links" href="#onde_assistir">Onde Assistir</a>
+            <a class="cabecalho_nav_links" href="#fotos">Fotos</a>
+            <a class="cabecalho_nav_links" href="#contato">Contato</a>
+        </nav>        
     </header>
-
-
-    <main>
-        <!-- <section class="teste">
-            <img class="ft1" src="https://pipocasclub.com.br/wp-content/uploads/2022/12/Chuck.jpg" alt="Foto do Elenco de Chuck" width="700px" height="400px">
-            <p class="text1">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam itaque quisquam error assumenda, blanditiis hic.
+    
+    
+    <main class="conteudo">
+        <section class="conteudo_resumo">
+            <h2 class="resumo_titulo_h2">Resumo</h2>
+            <p class="texto_resumo">
+                Chuck Bartowski (Zachary Levi) é um nerd "gênio da informática" que tem um emprego monótono na fictícia rede
+                Buy More. Sua rotina vira de ponta à cabeça quando um amigo, que trabalha na CIA, envia para Chuck um
+                misterioso e-mail e, agora, as maiores informações secretas do mundo estão em seu cérebro. Sem querer, ele
+                se tornou a maior arma do governo, e o destino do país e do mundo estão em suas mãos. Para que ele fique
+                seguro, a CIA e a NSA enviam dois agentes secretos que precisam ficar o tempo todo junto a Chuck para
+                mantê-lo vivo. Sarah Walker (Yvonne Strahovski) finge que é sua namorada para poder ficar perto dele e, ao
+                mesmo tempo, ele tenta manter o seu segredo escondido dos amigos e da irmã. (Dar uma incrementada a mais.)
             </p>
-        </section> -->
-        <hr>
+            <div class="foto1_resumo">
+                <img src="https://pipocasclub.com.br/wp-content/uploads/2022/12/Chuck.jpg" alt="Chuck Bartowski e Sarah Walker" width="650px" height="350px">
+            </div>
+        </section>
 
-        <h2>Resumo</h2>
-        <p>Chuck Bartowski (Zachary Levi) é um nerd "gênio da informática" que tem um emprego monótono na fictícia rede
-            Buy More. Sua rotina vira de ponta à cabeça quando um amigo, que trabalha na CIA, envia para Chuck um
-            misterioso e-mail e, agora, as maiores informações secretas do mundo estão em seu cérebro. Sem querer, ele
-            se tornou a maior arma do governo, e o destino do país e do mundo estão em suas mãos. Para que ele fique
-            seguro, a CIA e a NSA enviam dois agentes secretos que precisam ficar o tempo todo junto a Chuck para
-            mantê-lo vivo. Sarah Walker (Yvonne Strahovski) finge que é sua namorada para poder ficar perto dele e, ao
-            mesmo tempo, ele tenta manter o seu segredo escondido dos amigos e da irmã. (Dar uma incrementada a mais.)
-        </p>
-        <hr>
-
-        <h3 id="video">Trailer</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gSaua8MSDzg" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
-
-        <hr>
-        <section id="onde_assistir">
+        <hr size="5px">
+        
+        <section class="conteudo_trailer">
+            <h3 id="video" class="trailer_titulo_h2">Trailer</h3>
+            
+            <div class="video_trailer_div">
+                <iframe class="video_trailer" width="850" height="450" src="https://www.youtube.com/embed/gSaua8MSDzg" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                
+                </iframe>
+            </div>
+        </section>
+        
+        <hr size="5px">
+        
+        <section id="onde_assistir" class="conteudo_onde_assistir">
             <h2>Onde Assistir</h2>
             <p>
                 Você pode assistir essa serie na Amazon Prime Video <a
@@ -68,23 +74,18 @@
                     target="_blank">Clique Aqui </a>... (Continuar a escrever !)
             </p>
         </section>
-
-        <section id="fotos">
-            <hr>
+        <hr size="5px">
+        <section id="fotos" class="conteudo_fotos">
             <h2>Fotos</h2>
-            <img src="http://bancodeseries.tv.br/images/posters/835.jpg" alt="Foto Elenco">
-            <hr>
-            <img src="https://www.spinoff.com.br/wp-content/uploads/chuck-new-poster.jpg" alt="Foto Animada">
-            <hr>
+            <img src="http://bancodeseries.tv.br/images/posters/835.jpg" height="500px" width="400px" alt="Foto Elenco">
+            <img src="https://www.spinoff.com.br/wp-content/uploads/chuck-new-poster.jpg" height="500px" width="400px" alt="Foto Animada">
         </section>
 
     </main>
 
-    <footer>
-        <section id="contato">
-            <h2>Contato</h2>
-        </section>
-        <button type="button">Voltar</button>
+    <footer id="contato" class="rodape">
+        <h2>Contato</h2>
+        <button type="button" id="rodape_button">Voltar</button>
     </footer>
 
 </body>
