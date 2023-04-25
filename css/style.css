@@ -15,7 +15,7 @@ body {
     color: var(--cor-texto);
 }
 
-/* ||||| H E A D E R ||||| */
+/*|| H E A D E R ||*/
 .titulo{
     margin: 10px;
     text-align: center;
@@ -40,12 +40,16 @@ body {
     font-weight: 600;
     text-decoration: none;
 } 
-/* ||||| H E A D E R ||||| */
 
-/* ||||| M A I N ||||| */
+.cabecalho_nav_links:hover{
+    color: gold;
+}
+/*|| H E A D E R ||*/
+
+/*|| M A I N ||*/
 .conteudo {
     margin: 20px;
-    border: 5px solid gold;
+    border: 4px solid gold;
     color: var(--cor-texto);
     border-radius: 10px;
     padding: 20px 85px 20px 85px;
@@ -73,11 +77,13 @@ body {
 .foto1_resumo{
     height: 49.5%;
     text-align: center;
-    border: 3px solid gold;
+    border: 4px solid gold;
     margin-left: 235px;
     margin-right: 235px;
 }
+/*|| M A I N ||*/
 
+/*||TRAILER ||*/
 .conteudo_trailer{
     background-color: gray;
     height: 100vh;
@@ -90,14 +96,16 @@ body {
 }
 
 .video_trailer{
-    border: 3px solid gold;
+    border: 4px solid gold;
     padding: 0%;
 }
 
 .video_trailer_div{
     text-align: center;
 }
+/*||TRAILER ||*/
 
+/*|| ONDE ASSITIR ||*/
 .conteudo_onde_assistir{
     background-color: gray;
     height: 20vh;
@@ -124,7 +132,7 @@ body {
 
 .onde_assistir_button{
     gap: 6px;
-    border: 2px solid gold;
+    border: 4px solid gold;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -138,10 +146,14 @@ body {
 .onde_assistir_button:hover{
     color: gold;
 }
+/*|| ONDE ASSITIR ||*/
 
+/*|| FOTOS ||*/
 .conteudo_fotos{
     background-color: gray;
-    height: 100vh;
+    height: 420vh;
+    /* display: flex; */
+    box-sizing: border-box;
 }
 
 .fotos_h2{
@@ -150,33 +162,58 @@ body {
     padding: 5px 0px 15px 0px;      
 }
 
-.fotos_div{
-    border: 5px solid gold;
-    margin-left: 280px;
-    margin-right: 280px;
-    /* height: 88vh; */
-    text-align: center;
+.container_fotos{
+    display: flex;
 }
 
-.fotos_div img{
-    height: 88vh;
-    width: 88vh;
+.figure_fts{
+    width: 500px;
+    height: 2533px;
+    border: 4px solid gold;
+    margin-left: 310px;
 }
 
+.foto{
+    width: 500px;
+    height: 630px;
+}
+
+/*|| FOTOS ||*/
 
 
-
-
-
-
-
-
-
-
+/*|| RODAPE ||*/
 .rodape {
+    background-color: gray;
+    height: 25vh;
     margin: 25px;
     border: 5px solid greenyellow;
     color: var(--cor-texto);
     border-radius: 10px;
-    padding: 2% 2% 2% 2%;
+    padding: 1% 2% 2% 2%;
 }
+
+.contato_h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 5px 0px; 
+}
+
+.contatos_btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_contatos{
+    text-decoration: none;
+    text-align: center;
+    margin: 45px 45px;
+    width: 150px;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+/* .button{
+    text-align: right;
+} */
+
+/*|| RODAPE ||*/

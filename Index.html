@@ -13,11 +13,11 @@
     <!-- Palavras-chaves da página -->
     <meta name="author" content="Kayo Araujo Oliveira">
     <!-- Autor da pagina seja Pessoa, Empresa e etc -->
-    <title>Minha primeira página Web !</title>
+    <title>Chuck</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<!-- 
+<!--
     SITE BASE = https://cinema10.com.br/series/chuck 
 -->
 
@@ -80,7 +80,7 @@
             <div class="onde_assistir_div">
                 <h2 class="onde_assistir_h2">Onde Assistir</h2>
                 <p class="onde_assistir_texto">
-                    Chuck esta disponível na Amazon Prime Video. Onde clicando no link embaixo você terá mais
+                    Chuck esta disponível no streaming da Amazon Prime Video. Onde clicando no link à baixo, você verá mais
                     informações.
                 </p>
                 <a class="onde_assistir_button"
@@ -94,25 +94,39 @@
 
         <hr size="5px">
 
-        <section id="fotos" class="conteudo_fotos"> <!--FAZER UM CARROSEL COM AS IMAGENS-->
+        <section id="fotos" class="conteudo_fotos"> 
             <h2 class="fotos_h2">Fotos</h2>
-            
-            <div class="fotos_div">
-                <img src="fts_fotos/fts1.png" height="560px" width="500px">
-            <!--<img src="fts_fotos/fts2.png" height="500px" width="200px">
-                <img src="fts_fotos/fts3.png" height="500px" width="200px">
-                <img src="fts_fotos/fts4.png" height="500px" width="200px">
-                <img src="fts_fotos/fts5.png" height="500px" width="200px">
-                <img src="fts_fotos/fts6.png" height="500px" width="200px"> -->
-            
+
+        <section class="container_fotos">   
+            <div class="figure_fts">
+                <img class="foto" src="fts_fotos/fts1.png" alt="img1">
+                <img class="foto" src="fts_fotos/fts2.png" alt="img2">
+                <img class="foto" src="fts_fotos/fts5.png" alt="img3">
+                <img class="foto" src="fts_fotos/fts6.png" alt="img4">
             </div>
+        </section>
+
         </section>
 
     </main>
 
     <footer id="contato" class="rodape">
-        <h2>Contato</h2>
-        <button type="button" id="rodape_button">Voltar</button>
+        <h2 class="contato_h2">Contato</h2>
+
+        <div class="contatos_btns">
+            <a class="btn_contatos" href="https://github.com/Kayo033?tab=repositories">
+                <img src="https://github.githubassets.com/favicons/favicon.png" alt="">
+                GitHub
+            </a>
+            <a class="btn_contatos" href="https://www.linkedin.com/in/kayo-oliveira-080910bs">
+                <img src="https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca" alt="">
+                Linkedin
+            </a>
+        </div>
+
+        <!-- <div class="button">
+            <button type="button" id="rodape_button">Voltar</button>
+        </div> -->
     </footer>
 
 </body>
