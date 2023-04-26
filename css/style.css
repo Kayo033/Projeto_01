@@ -86,6 +86,22 @@ body {
 }
 /*|| M A I N ||*/
 
+/*|| ELENCO ||*/
+.conteudo_elenco{
+    background-color: gray;
+    height: 30vh; 
+    text-align: center;
+}
+
+.elenco_h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 0px 30px 0px;
+}
+
+
+/*|| ELENCO ||*/
+
 /*||TRAILER ||*/
 .conteudo_trailer{
     background-color: gray;
