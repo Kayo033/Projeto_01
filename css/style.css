@@ -1,6 +1,6 @@
 :root {
-    --cor-background:#182747;
-    --cor-texto:#D8D8D8;
+    --cor-background: #182747;
+    --cor-texto: #D8D8D8;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
 }
 
 /*|| H E A D E R ||*/
-.titulo{
+.titulo {
     margin: 10px;
     text-align: center;
     font-size: 18vh;
@@ -24,7 +24,7 @@ body {
 
 .cabecalho {
     text-align: center;
-    padding: 0.5%; 
+    padding: 0.5%;
     margin: 3px 150px;
     border: 4px solid greenyellow;
     background-color: gray;
@@ -42,11 +42,12 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-} 
+}
 
-.cabecalho_nav_links:hover{
+.cabecalho_nav_links:hover {
     color: gold;
 }
+
 /*|| H E A D E R ||*/
 
 /*|| M A I N ||*/
@@ -58,18 +59,18 @@ body {
     padding: 20px 85px 20px 85px;
 }
 
-.conteudo_resumo{
+.conteudo_resumo {
     background-color: gray;
     height: 100vh;
 }
 
-.resumo_titulo_h2{
+.resumo_titulo_h2 {
     font-size: 30px;
     text-align: center;
     padding: 2.5px 0px 2.5px 0px;
 }
 
-.texto_resumo{
+.texto_resumo {
     font-family: cursive;
     text-align: justify;
     margin-left: 250px;
@@ -77,67 +78,30 @@ body {
     padding: 10px 0px 15px 0px;
 }
 
-.foto1_resumo{
+.foto1_resumo {
     height: 49.5%;
     text-align: center;
     border: 4px solid gold;
     margin-left: 235px;
     margin-right: 235px;
 }
+
 /*|| M A I N ||*/
 
 /*|| ELENCO ||*/
-.conteudo_elenco{
+.conteudo_elenco {
     background-color: gray;
-    height: 30vh; 
+    height: 270vh;
     text-align: center;
 }
 
-.elenco_h2{
+.elenco_h2 {
     font-size: 30px;
     text-align: center;
     padding: 5px 0px 30px 0px;
 }
 
-
-/*|| ELENCO ||*/
-
-/*||TRAILER ||*/
-.conteudo_trailer{
-    background-color: gray;
-    height: 100vh;
-}
-
-.trailer_titulo_h2{
-    font-size: 30px;
-    text-align: center;
-    padding: 25px 0px 45px 0px;
-}
-
-.video_trailer{
-    border: 4px solid gold;
-    padding: 0%;
-}
-
-.video_trailer_div{
-    text-align: center;
-}
-/*||TRAILER ||*/
-
-/*|| ONDE ASSITIR ||*/
-.conteudo_onde_assistir{
-    background-color: gray;
-    height: 20vh;
-    padding: 0px 0px 120px 0px;
-}
-
-.onde_assistir_h2{
-    font-size: 30px;
-    text-align: center;
-    padding: 5px 0px 25px 0px;   
-}
-
-.onde_assistir_texto{
+.texto_elenco{
     font-family: cursive;
     text-align: justify;
     margin-left: 250px;
@@ -145,11 +109,62 @@ body {
     padding: 8px 0px 30px 0px;
 }
 
-.onde_assistir_div{
+.gd {
+    display: flex;
+}
+
+
+/*|| ELENCO ||*/
+
+/*||TRAILER ||*/
+.conteudo_trailer {
+    background-color: gray;
+    height: 100vh;
+}
+
+.trailer_titulo_h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0px 45px 0px;
+}
+
+.video_trailer {
+    border: 4px solid gold;
+    padding: 0%;
+}
+
+.video_trailer_div {
     text-align: center;
 }
 
-.onde_assistir_button{
+/*||TRAILER ||*/
+
+/*|| ONDE ASSITIR ||*/
+.conteudo_onde_assistir {
+    background-color: gray;
+    height: 20vh;
+    padding: 0px 0px 120px 0px;
+}
+
+.onde_assistir_h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 0px 25px 0px;
+}
+
+.onde_assistir_texto {
+    font-family: cursive;
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 8px 0px 30px 0px;
+}
+
+.onde_assistir_div {
+    text-align: center;
+}
+
+.onde_assistir_button {
     gap: 6px;
     border: 4px solid gold;
     text-align: center;
@@ -162,39 +177,93 @@ body {
     font-family: cursive;
 }
 
-.onde_assistir_button:hover{
+.onde_assistir_button:hover {
     color: gold;
 }
+
 /*|| ONDE ASSITIR ||*/
 
 /*|| FOTOS ||*/
-.conteudo_fotos{
+.conteudo_fotos {
     background-color: gray;
-    height: 420vh;
+    height: 165vh;
     /* display: flex; */
     box-sizing: border-box;
 }
 
-.fotos_h2{
+.fotos_h2 {
     font-size: 30px;
     text-align: center;
-    padding: 5px 0px 15px 0px;      
+    padding: 5px 0px 25px 0px;
 }
 
-.container_fotos{
-    display: flex;
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
 }
 
-.figure_fts{
-    width: 500px;
-    height: 2533px;
-    border: 4px solid gold;
-    margin-left: 310px;
+.mySlides {
+    display: none;
 }
 
-.foto{
-    width: 500px;
-    height: 630px;
+.prev,
+.next {
+    cursor: grab;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 7px;
+    color: #F0A500;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #717171;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #F0A500;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /*|| FOTOS ||*/
@@ -211,22 +280,22 @@ body {
     padding: 1% 2% 2% 2%;
 }
 
-.contato_h2{
+.contato_h2 {
     font-size: 30px;
     text-align: center;
-    padding: 0px 0px 5px 0px; 
+    padding: 0px 0px 5px 0px;
 }
 
-.contatos_btns{
+.contatos_btns {
     display: flex;
     justify-content: center;
 }
 
-.btn_contatos:hover{
+.btn_contatos:hover {
     color: gold;
 }
 
-.btn_contatos{
+.btn_contatos {
     padding: 3px;
     font-size: 25px;
     text-decoration: none;
@@ -238,12 +307,12 @@ body {
     border-radius: 5px;
 }
 
-.icons{
+.icons {
     width: 30px;
     height: 30px;
 }
 
-.texto_direitos{
+.texto_direitos {
     margin: 0px 530px;
     font-size: 17px;
     text-align: center, justify;
