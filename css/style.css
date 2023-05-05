@@ -61,7 +61,7 @@ body {
 
 .conteudo_resumo {
     background-color: gray;
-    height: 100vh;
+    height: 110vh;
 }
 
 .resumo_titulo_h2 {
@@ -79,11 +79,16 @@ body {
 }
 
 .foto1_resumo {
-    height: 49.5%;
+    height: 315px;
     text-align: center;
+    box-sizing: border-box;
+    margin: 0px 235px 0px 235px;
+    padding: 0;
+}
+
+.foto_1{
+    box-sizing: border-box;
     border: 4px solid gold;
-    margin-left: 235px;
-    margin-right: 235px;
 }
 
 /*|| M A I N ||*/
@@ -91,7 +96,7 @@ body {
 /*|| ELENCO ||*/
 .conteudo_elenco {
     background-color: gray;
-    height: 270vh;
+    height: 210vh;
     text-align: center;
 }
 
@@ -102,16 +107,44 @@ body {
 }
 
 .texto_elenco{
-    font-family: cursive;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
     text-align: justify;
     margin-left: 250px;
     margin-right: 250px;
-    padding: 8px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
 }
 
-.gd {
-    display: flex;
+.texto_elenco li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
 }
+
+.texto_elenco strong {
+    font-weight: bold;
+    color: gold;
+}
+
+.container_elenco_infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container_elenco_ft{
+    margin: 10px 40px 80px 20px;
+}
+
+.container_elenco_ft_2{
+    margin: 0px 20px 0px 20px;
+
+}
+
 
 
 /*|| ELENCO ||*/
@@ -186,7 +219,7 @@ body {
 /*|| FOTOS ||*/
 .conteudo_fotos {
     background-color: gray;
-    height: 165vh;
+    height: 175vh;
     /* display: flex; */
     box-sizing: border-box;
 }
@@ -205,10 +238,11 @@ body {
 
 .mySlides {
     display: none;
+    overflow: hidden;        
+    border: 4px solid gold;
 }
 
-.prev,
-.next {
+.prev,.next {
     cursor: grab;
     position: absolute;
     top: 50%;
@@ -229,25 +263,8 @@ body {
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #717171;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #F0A500;
 }
 
 /* Fading animation */

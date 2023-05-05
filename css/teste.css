@@ -1,0 +1,13 @@
+.container_fotos {
+    display: block;
+    width: 500px; /* Defina o tamanho da div em pixels */
+    height: 300px;
+    position: relative;
+    margin: auto;
+ }
+ 
+ .mySlides img {
+    width: 100%; /* Defina a largura da imagem como 100% em relação ao tamanho da div */
+    height: 100%; /* Defina a altura da imagem como 100% em relação ao tamanho da div */
+ }
+ 
