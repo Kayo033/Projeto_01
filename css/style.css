@@ -19,29 +19,30 @@ body {
 .titulo {
     margin: 10px;
     text-align: center;
-    font-size: 18vh;
+    font-size: 8vh;
 }
 
 .cabecalho {
     text-align: center;
-    padding: 0.5%;
-    margin: 3px 150px;
+    padding: 1%;
+    margin: 1px 50px;
     border: 4px solid greenyellow;
     background-color: gray;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .cabecalho_nav {
     display: inline-flex;
-    gap: 80px;
+    gap: 50px;
     margin-bottom: 1px;
 }
 
 .cabecalho_nav_links {
     color: var(--cor-texto);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
+    line-height: 75px;
 }
 
 .cabecalho_nav_links:hover {
