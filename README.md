@@ -8,4 +8,4 @@
 
 <h2>Site</h2>
 
-<p>Segue Site do projeto pronto: <a href="https://serie-chuck.netlify.app">Clique aqui.</a></p>
+<p>Segue Site do projeto pronto: <a href="https://serie-chuck.netlify.app" target="_blank">Clique aqui.</a></p>
